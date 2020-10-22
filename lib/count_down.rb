@@ -2,5 +2,10 @@
 count = 10
 zero = 0;
 while (true) do
-  put "#{count}"
+  if count == zero
+    break
+    puts "Happy New Year!"
+  else
+    puts "#{count}"
+  count --
 end
